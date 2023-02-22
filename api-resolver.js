@@ -1,11 +1,19 @@
-const {getClient} = require("./get-client");
-const {Client} = require("pg");
 const forecasts = require("./forecasts");
-const {logger} = require("./logger");
+const weather = require("./weather");
+const {LOGGER} = require("./logger");
 
-fetchForecasts = () => {
-    logger.info("api resolver finds fetchAllRecords");
-    return forecasts.fetchAllRecords();
+fetchForecasts = (store, startdate, enddate) => {
+
+    LOGGER.info("api resolver : /forecasted redirecting to forecasts.fetchForecasts");
+
+    return forecasts.fetchForecasts(store,startdate, enddate);
 }
 
-module.exports = {fetchForecasts};
+fetchWeather = (store, startdate, enddate) => {
+
+    LOGGER.info("api resolver : /weatherdata redirecting to weather.fetchWeather");
+
+    return weather.fetchWeather(store, startdate, enddate);
+}
+
+module.exports = {fetchForecasts, fetchWeather};

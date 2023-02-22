@@ -2,3 +2,104 @@
 {"level":"info","message":"Database entries for  99 row(s)"}
 {"level":"info","message":"Trying to retrieve Database config"}
 {"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  99 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  15 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  0 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  0 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  0 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  0 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  0 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  15 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  15 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  15 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query:error: operator does not exist: timestamp without time zone >= text"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> error: operator does not exist: timestamp without time zone >= text"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'database')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'database')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'database')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'database')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'database')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'credentials')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'development')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> TypeError: Cannot read properties of undefined (reading 'development')"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  15 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  0 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  15 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  15 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> ReferenceError: databaseLogger is not defined"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> ReferenceError: databaseLogger is not defined"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"error","message":"Exception in running the query -> ReferenceError: entries is not defined"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}
+{"level":"info","message":"Trying to retrieve Database config"}
+{"level":"info","message":"Database entries for  29 row(s)"}

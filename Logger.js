@@ -1,7 +1,6 @@
+const { createLogger, transports, config } = require('winston');
 
-const { createLogger, format, transports, config } = require('winston');
-
-const logger = createLogger({
+const LOGGER = createLogger({
     levels: config.syslog.levels,
     transports: [
         new transports.Console(),
@@ -9,7 +8,7 @@ const logger = createLogger({
     ]
 });
 
-const forecastsLogger = createLogger({
+const FORECASTSLOGGER = createLogger({
     levels: config.syslog.levels,
     transports: [
         new transports.Console(),
@@ -17,7 +16,7 @@ const forecastsLogger = createLogger({
     ]
 });
 
-const weatherLogger = createLogger({
+const WEATHERLOGGER = createLogger({
     levels: config.syslog.levels,
     transports: [
         new transports.Console(),
@@ -25,7 +24,7 @@ const weatherLogger = createLogger({
     ]
 })
 
-const databaseLogger = createLogger({
+const DATABASELOGGER = createLogger({
     levels: config.syslog.levels,
     transports: [
         new transports.Console(),
@@ -33,8 +32,8 @@ const databaseLogger = createLogger({
     ]
 })
 module.exports = {
-    logger: logger,
-    forecastsLogger: forecastsLogger,
-    weatherLogger: weatherLogger,
-    databaseLogger: databaseLogger
+    LOGGER,
+    FORECASTSLOGGER,
+    WEATHERLOGGER,
+    DATABASELOGGER
 };

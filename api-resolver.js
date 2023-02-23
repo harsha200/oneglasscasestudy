@@ -1,19 +1,26 @@
-const forecasts = require("./forecasts");
-const weather = require("./weather");
-const {LOGGER} = require("./logger");
+const forecasts = require("./middleware/forecasts");
+const weather = require("./middleware/weather");
+const AlertManager = require("./middleware/alertmanager");
+const {LOGGER} = require("./Logs/Config/Logger");
 
-fetchForecasts = (store, startdate, enddate) => {
+fetchForecasts = (store) => {
 
     LOGGER.info("api resolver : /forecasted redirecting to forecasts.fetchForecasts");
 
-    return forecasts.fetchForecasts(store,startdate, enddate);
+    return forecasts.fetchForecasts(store);
 }
 
-fetchWeather = (store, startdate, enddate) => {
+fetchWeather = (store) => {
 
     LOGGER.info("api resolver : /weatherdata redirecting to weather.fetchWeather");
 
-    return weather.fetchWeather(store, startdate, enddate);
+    return weather.fetchWeather(store);
 }
 
-module.exports = {fetchForecasts, fetchWeather};
+fetchAlerts = (store) => {
+    LOGGER.info("api resolver: /alerts redirecting to AlertManager.retrieveAlerts");
+
+    return AlertManager.retrieveAlerts(store);
+}
+
+module.exports = {fetchForecasts, fetchWeather,fetchAlerts};

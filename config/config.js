@@ -4,7 +4,7 @@ const config = {
             rootUrl: 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline',
             headers: {
                 "unitGroup" : "metric",
-                "key":"9ME2T3P6MP3CZXWP2QRZAL3QZ",
+                "key":"3WWEVYKLNRDJ4DHHK7ASL5XFF",
                 "Content-Type": "application/json"
             }
         }

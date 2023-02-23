@@ -1,8 +1,8 @@
 const { getClient } = require('./get-client');
-const {DATABASELOGGER} = require('./logger');
+const {DATABASELOGGER} = require('../Logs/Config/Logger');
 
 fetchDBConfig = () => {
-    DATABASELOGGER.info('Trying to retrieve Database config');
+    DATABASELOGGER.info('Trying to retrieve database config');
     return getClient();
 }
 
@@ -27,4 +27,4 @@ function addQuotes(value){
     return "\'" + value + "\'";
 }
 
-module.exports = { fetchDBConfig, fetchForecastsData}
+module.exports = { fetchForecastsData}

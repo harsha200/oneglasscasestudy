@@ -1,6 +1,6 @@
-const {WEATHERLOGGER} = require("./Logger");
+const {WEATHERLOGGER} = require("../Logs/Config/Logger");
 const axios = require("axios");
-const {config} = require("./config");
+const {config} = require("../config/config");
 
 fetchWeatherData = async (store, startDate, endDate) => {
 
@@ -24,7 +24,7 @@ fetchWeatherData = async (store, startDate, endDate) => {
     }
     catch (e)
     {
-        weatherLogger.error('Exception is fetching weather api: ' + e);
+        WEATHERLOGGER.error('Exception is fetching weather api: ' + e);
     }
 }
 

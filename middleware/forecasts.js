@@ -5,12 +5,13 @@ const moment = require("moment");
 fetchForecasts = (store) => {
     FORECASTSLOGGER.info('Fetching forecasted sales data from VOIDS database');
 
+    //Retrieving todays'date
     const DATE = new Date();
 
-    //Current Date
+    //changing the date format
     const TODAY_DATE = moment(DATE).format('YYYY-MM-D');
 
-    //Later Date
+    //calculating after 2 weeks date from todays's date
     const LATER_DATE = moment(TODAY_DATE).add(2,'weeks').format('YYYY-MM-D');
 
     return dbLayer.fetchForecastsData(TODAY_DATE, LATER_DATE,store);

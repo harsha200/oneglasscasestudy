@@ -13,7 +13,10 @@ retrieveAlerts = async (store) => {
     //fetching weather data
     const weatherData = weather.fetchWeather(store);
 
+    //Dates from which any 3 consecutive days sales sum < 1000
     const DATES_CLOSE_SALES = checkSalesToClose(await sales);
+
+    //Dates from which any 3 consecutive days temperature is below 5 unless sales sum > 1500
     const DATES_CLOSE_WEATHER = checkWeatherToClose(await weatherData,await sales);
 
     const RESPONSE_DATA = buildResponseData(DATES_CLOSE_SALES,DATES_CLOSE_WEATHER);
@@ -27,6 +30,7 @@ buildResponseData = (DATES_CLOSE_SALES, DATES_CLOSE_WEATHER) => {
 
     const maxLength = Math.max(DATES_CLOSE_SALES.length, DATES_CLOSE_WEATHER.length);
 
+    //Making single array from two datasets
     for (let i = 0; i < maxLength; i++) {
         if (i < DATES_CLOSE_SALES.length) {
             interleavedArray.push(DATES_CLOSE_SALES[i]);
@@ -72,6 +76,7 @@ checkWeatherToClose = (weatherData, salesData) => {
                 sum += salesData[j].forecasted_sales_quantity; // Add the sales quantity to the sum
             }
 
+            //if sales sum > 1500 the temperature does not count store will still open
             if (sum > 1500) {
                 continue;
             }

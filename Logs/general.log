@@ -1091,3 +1091,249 @@
 {"level":"info","message":"Sanitizing query parameters"}
 {"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
 {"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /forecasted redirecting to forecasts.fetchForecasts"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver : /weatherdata redirecting to weather.fetchWeather"}
+{"level":"info","message":"Sanitizing query parameters"}
+{"level":"info","message":"api resolver: /alerts redirecting to AlertManager.retrieveAlerts"}
+{"level":"info","message":"Fetching alerts"}

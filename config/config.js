@@ -1,5 +1,7 @@
 const config = {
+    //development configuration
     development: {
+        //weather api
         weatherapi: {
             rootUrl: 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline',
             headers: {

@@ -2,7 +2,7 @@ const { Client } = require('pg');
 require('dotenv').config();
 
 module.exports.getClient = async () => {
-
+    //ALl of the sensitive information is stores in .env file
     return new Promise(function(resolve) {
         const CLIENT = new Client({
             host: process.env.PG_HOST,

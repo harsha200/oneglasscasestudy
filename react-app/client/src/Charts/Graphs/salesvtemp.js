@@ -5,13 +5,26 @@ import {Card, Col, Form, Row} from "react-bootstrap";
 import axios from "axios";
 import {rootURL} from "../../constants";
 import moment from "moment/moment";
+import ErrorPage from "../../Error/ErrorPage";
 
 const Salesvtemp = () => {
+
+    //Stores weather data that is retrieved from backend in the state
     const [weatherData, setWeatherData] = useState([]);
+
+    //Stores forcasted sales data that is retrieved from backend in the state
     const [forecastedData, setForcastedData] = useState([]);
+
+    //Flag to load the graph once we fetch the data from the backend
     const [refresh, setRefresh] = useState(true);
+
+    //Stores label information : next 14 dates from today
     const [labels, setLabels] = useState([]);
 
+    //Flag when to load error page when backend give any error
+    const [isError, setIsError] = useState(false);
+
+    //Stores apex chrt settings and data
     const[chartInfo, setChartInfo] = useState({
 
         series:[
@@ -60,6 +73,7 @@ const Salesvtemp = () => {
 
     })
 
+    //Fetching data
     const fetchData = (storeName) => {
 
        fetchSales(storeName);
@@ -67,6 +81,7 @@ const Salesvtemp = () => {
 
     }
 
+    //Fetching sales data
     const fetchSales = (storeName)=>{
 
         axios.
@@ -79,30 +94,39 @@ const Salesvtemp = () => {
         )
             .then((response)=>{
 
-                setLabelInfo(response.data);
+                setSalesInfo(response.data);
                 setRefresh(!refresh);
             })
     }
 
+    //Fetching weather data
     const fetchWeather = (storeName) => {
-
-        axios.
-        get(rootURL+"weatherdata",
-            {
-                params:{
-                    store:storeName,
+        try {
+            axios.
+            get(rootURL+"weatherdata",
+                {
+                    params:{
+                        store:storeName,
+                    }
                 }
-            }
-        )
-            .then((response)=>{
-
-                setWeatherInfo(response.data["0"]);
-                setRefresh(!refresh);
+            )
+                .then((response)=>{
+                    setIsError(false);
+                    setWeatherInfo(response.data["0"]);
+                    setRefresh(!refresh);
+                }).catch(()=>{
+                setIsError(true);
             })
+        }
+        catch (error)
+        {
+            setIsError(true);
+        }
+
 
     }
 
-    const setLabelInfo= (responseData)=>{
+    const setSalesInfo= (responseData)=>{
         const arrayLabels = [];
         const arrayData = [];
 
@@ -114,6 +138,7 @@ const Salesvtemp = () => {
         setLabels(arrayLabels);
         setForcastedData(arrayData);
     }
+
 
     const setWeatherInfo = (responseData) =>{
         const arrayData = [];
@@ -128,6 +153,7 @@ const Salesvtemp = () => {
         setWeatherData(arrayData);
     }
 
+    //This will update the graph whenever refresh flag changes
     useEffect(()=>{
 
 
@@ -187,11 +213,10 @@ const Salesvtemp = () => {
     },[refresh]);
 
     return(
-
         <div style={{marginLeft: '50px', marginRight: '30px'}}>
             <Row>
                 <Col>
-                    <Card style={{borderColor: '#3134eb', borderRadius: '15px', boxShadow: '1px 2px 9px ' + '#61b546', width:'50%'}}>
+                    <Card style={{borderColor: '#3134eb', borderRadius: '15px', boxShadow: '1px 2px 9px ' + '#61b546', width:'100%'}}>
                         <Card.Body>
                             <Row>
                                 <Col sm={7}>
@@ -211,8 +236,13 @@ const Salesvtemp = () => {
                                     </div>
                                 </div>
                             </Row>
-
-                            <Chart options={chartInfo.options} series={chartInfo.series} type={"line"} width={900} height={400}/>
+                            {
+                                isError?(
+                                    <ErrorPage/>
+                                ):(
+                                    <Chart options={chartInfo.options} series={chartInfo.series} type={"line"} width={1000} height={400}/>
+                                )
+                            }
                         </Card.Body>
 
                     </Card>

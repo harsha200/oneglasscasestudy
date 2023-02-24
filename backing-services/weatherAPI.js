@@ -8,19 +8,27 @@ fetchWeatherData = async (store, startDate, endDate) => {
 
     try
     {
-        const responseData = await axios.get(buildQuery(store, startDate, endDate),{
-                params: {
-                    unitGroup : config.development.weatherapi.headers.unitGroup,
-                    key: config.development.weatherapi.headers.key,
-                },
-                headers:{
-                    "Content-Type": "application/json"
-                },
-            }
-        ).then( (response) =>{
-            return(response.data);
-        })
-        return responseData;
+        try{
+            const responseData = await axios.get(buildQuery(store, startDate, endDate),{
+                    params: {
+                        //This configuration is stored in config file
+                        unitGroup : config.development.weatherapi.headers.unitGroup,
+                        key: config.development.weatherapi.headers.key,
+                    },
+                    headers:{
+                        "Content-Type": "application/json"
+                    },
+                }
+            ).then( (response) =>{
+                return(response.data);
+            })
+            return responseData;
+        }
+        catch (error)
+        {
+            WEATHERLOGGER.error("Error happened while fetching weather data"+ e);
+        }
+
     }
     catch (e)
     {
@@ -30,6 +38,7 @@ fetchWeatherData = async (store, startDate, endDate) => {
 
 buildQuery = (store,startDate, endDate) => {
 
+    //building required query format for visual crossing weather api
     const ROOT_URL = config.development.weatherapi.rootUrl;
 
     const CITY = '/'+ store;

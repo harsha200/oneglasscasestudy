@@ -1,5 +1,7 @@
 const { createLogger, transports, config } = require('winston');
 
+//Different loggers for different subsytems
+
 const LOGGER = createLogger({
     levels: config.syslog.levels,
     transports: [
